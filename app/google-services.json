@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "682907739576",
+    "firebase_url": "https://wisataindonesia-e4c03.firebaseio.com",
+    "project_id": "wisataindonesia-e4c03",
+    "storage_bucket": "wisataindonesia-e4c03.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:682907739576:android:33aa1be0ecb14f2a255b4d",
+        "android_client_info": {
+          "package_name": "com.wildan.wisataindonesia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "682907739576-stiucqndrfq3er5p5471p0t5ch9l0fu3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGsSkJ36YZujvVbZLwwpqch2S2nxceaQE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "682907739576-stiucqndrfq3er5p5471p0t5ch9l0fu3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">WisataIndonesia</string>
+    <string name="title_activity_maps">Map</string>
+    <string-array name="provinsi">
+        <item>Aceh</item>
+        <item>Sumatra Utara</item>
+        <item>Sumatra Barat</item>
+        <item>Riau</item>
+        <item>Kepulauan Riau</item>
+        <item>Jambi</item>
+        <item>Bengkulu</item>
+        <item>Sumatra Selatan</item>
+        <item>Kep.Bangka Belitung</item>
+        <item>Lampung</item>
+        <item>Banten</item>
+        <item>Jawa Barat</item>
+        <item>Jakarta</item>
+        <item>Jawa Tengah</item>
+        <item>Yogyakarta</item>
+        <item>Jawa Timur</item>
+        <item>Bali</item>
+        <item>NTB</item>
+        <item>NTT</item>
+        <item>Kalimantan Barat</item>
+        <item>Kalimantan Selatan</item>
+        <item>Kalimantan Tengah</item>
+        <item>Kalimantan Timur</item>
+        <item>Kalimantan Utara</item>
+        <item>Gorontalo</item>
+        <item>Sulawesi Barat</item>
+        <item>Sulawesi Selatan</item>
+        <item>Sulawesi Tengah</item>
+        <item>Sulawesi Tenggara</item>
+        <item>Sulawesi Utara</item>
+        <item>Maluku</item>
+        <item>Maluku Utara</item>
+        <item>Papua Barat</item>
+        <item>Papua</item>
+    </string-array>
+
+    <string-array name="pulau">
+        <item>Sumatera</item>
+        <item>Jawa</item>
+        <item>Kalimantan</item>
+        <item>Nusa Tenggara</item>
+        <item>Sulawesi</item>
+        <item>Maluku</item>
+        <item>Papua</item>
+    </string-array>
+</resources>

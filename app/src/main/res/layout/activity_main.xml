@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f6fcfc"
+    android:id="@+id/rlmain"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/rectangle"
+        />
+
+    <RelativeLayout
+        android:id="@+id/rltitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+        <ViewFlipper
+            android:id="@+id/v_flipper"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true">
+
+            <com.synnapps.carouselview.CarouselView
+                android:id="@+id/carouselView"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:fillColor="#FFFFFFFF"
+                app:pageColor="#00000000"
+                app:radius="6dp"
+                app:slideInterval="3000"
+                app:strokeColor="#FF777777"
+                app:strokeWidth="1dp"/>
+
+        </ViewFlipper>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rltitle"
+        android:fontFamily="@font/oleo_script_swash_caps"
+        android:gravity="center"
+        android:text="Welcome To Wisata Indonesia"
+        android:textColor="@color/biruMuda"
+        android:textSize="24sp" />
+
+    <RelativeLayout android:id="@+id/item"
+        android:layout_below="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:background="@drawable/bgadmin"
+        android:padding="10dp"
+        android:layout_margin="30dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/addLocation"
+            android:padding="10dp"
+            android:layout_alignParentRight="true">
+            <ImageView android:id="@+id/addgb"
+                android:src="@drawable/add"
+                android:contentDescription="p"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_centerHorizontal="true"
+                android:padding="5dp"
+                />
+            <TextView android:id="@+id/addtxt"
+                android:fontFamily="@font/amaranth"
+                android:textSize="16sp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/addgb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tambah Lokasi"
+                android:textColor="@color/biru"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/point"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <ImageView android:id="@+id/pointgb"
+                android:src="@drawable/location"
+                android:contentDescription="parchment"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_centerHorizontal="true"
+                android:padding="5dp"
+                />
+            <TextView
+                android:id="@+id/pointtxt"
+                android:fontFamily="@font/amaranth"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/pointgb"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lokasi Wisata"
+                android:textColor="@color/biru"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout android:id="@+id/exit"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/point"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_centerHorizontal="true"
+            >
+            <TextView android:id="@+id/exittxt"
+                android:fontFamily="@font/amaranth"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Exit"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/exitgb"
+                android:textColor="@color/biru"
+                />
+
+            <ImageView android:id="@+id/exitgb"
+                android:src="@drawable/logout"
+                android:padding="5dp"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_centerHorizontal="true"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/credit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bgadmin"
+        android:padding="10dp"
+        android:layout_below="@+id/item"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wildan Rozaqi (A22.2018.02690)"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/amaranth"
+            android:textColor="@color/biru"/>
+    </RelativeLayout>
+
+</RelativeLayout>
